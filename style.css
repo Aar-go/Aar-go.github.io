@@ -32,7 +32,7 @@ body {
 }
 
 #trans1 {
-  background: url("../img/ULTIME_MAPPA.jpg") no-repeat fixed;
+  background: url("/img/ULTIME_MAPPA.jpg") no-repeat fixed;
   height: 100vh;
   background-position: center top;
   -webkit-background-size: cover;
