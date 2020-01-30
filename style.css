@@ -4,6 +4,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: #f8f9fa;
 }
 
 #header {
@@ -32,7 +33,7 @@ body {
 }
 
 #trans1 {
-  background: url("/img/ULTIME_MAPPA.jpg") no-repeat fixed;
+  background: url("../img/ULTIME_MAPPA.jpg") no-repeat fixed;
   height: 100vh;
   background-position: center top;
   -webkit-background-size: cover;
@@ -42,8 +43,8 @@ body {
 }
 
 #trans2 {
-  background: url("../img/2.jpg") no-repeat center center fixed;
-  height: 100vh;
+  background: url("../img/TorciLandscape.jpg") no-repeat center center fixed;
+  height: 40vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,22 +52,25 @@ body {
 }
 
 #trans3 {
-  background: url("../img/torcibrencoli.mp4") no-repeat top center fixed;
+  background: url("../img/TorciVineyard_-8.jpg") no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 56.2vw;
+  background-size:cover;
+  background-position: center top;
+    /* height: 56.2vw; */
 }
 
+
+
 .txt {
-  font-family: "Niconne", cursive;
-  font-size: 55px;
+  font-family: "Marcellus", cursive;
+  font-size: 1rem;
   color: #000;
   width: auto;
   background: #f8f9fa;
   background: rgba(248, 249, 250, 0.7);
-  padding: 0;
+  padding: 3rem 0 0 0;
 }
 .txt.right {
   margin: 150px 100px 0 0;
@@ -81,10 +85,15 @@ body {
 
 .verdino {
   color: #c52c30;
+  padding-left: 1rem;
 }
 
 .noSfondo {
   background: none;
+}
+
+.spazioSotto {
+  padding-bottom: 3rem;
 }
 
 .txt.sub {
@@ -105,11 +114,15 @@ body {
 
 .immagini {
   width: auto;
-  padding-bottom: 2rem;
+  margin: auto 0 auto 0;
 }
 
 .immagini.profilo{
   width: 100%;
+}
+
+.noColPadd{
+  margin: auto;
 }
 
 .dimensioni {
@@ -118,7 +131,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .dimensioni {
-    width: 25vw;
+    width: 14vw;
   }
   
 }
@@ -177,9 +190,9 @@ body {
 }
 
 #footer {
-  /* text-align: center;
-  padding: 20px 0 20px;
-  box-sizing: border-box; */
+  /* text-align: center; */
+  padding: 20px 0 0 0;
+  /* box-sizing: border-box; */
   /* -moz-box-sizing: border-box; */
   position: relative;
   z-index: 2;
